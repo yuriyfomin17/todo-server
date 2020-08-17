@@ -5,7 +5,12 @@ const todoSchema = mongoose.Schema(
     _id: mongoose.Schema.Types.ObjectId,
     name: { type: String, required: true },
     description: {
-      type: String,
+      type: Number,
+      required: false,
+      default: '',
+    },
+    index: {
+      type: Number,
       required: false,
       default: '',
     },

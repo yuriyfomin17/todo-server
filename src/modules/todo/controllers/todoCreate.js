@@ -8,6 +8,7 @@ export default async function todoCreate(req, res) {
     _id,
     name: req.body.name,
     description: req.body.description,
+    index: req.body.description,
     done: req.body.done || false,
   });
 
