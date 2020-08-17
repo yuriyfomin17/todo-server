@@ -4,7 +4,7 @@
   "description": "Todo server",
   "main": "index.js",
   "engines": {
-    "node": "9.10.0"
+    "node": "12.18.2"
   },
   "scripts": {
     "heroku-postbuild": "npm install",
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/bogutski/todo-server.git"
   },
-  "author": "",
+  "author": "Yuriy-Fomin",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bogutski/todo-server/issues"
