@@ -2,7 +2,7 @@ import Todo from '../todoModel';
 
 export default async function todoUpdateById(req, res) {
   const id = req.params.todoId;
-
+  console.log('BODY', req.body);
   Todo.update({ _id: id }, { $set: req.body })
     .exec()
     .then(doc => {
